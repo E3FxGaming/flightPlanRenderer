@@ -1,6 +1,6 @@
 'strict mode';
 
-var map = L.map('map').setView([51.505, -0.09], 13);
+var map = L.map('map');
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 10,
